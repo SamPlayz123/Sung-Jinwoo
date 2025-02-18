@@ -6,7 +6,7 @@ local function checkWhitelist()
     print("🔍 Checking whitelist status...")
     
     local success, response = pcall(function()
-        return game:HttpGet("https://pastebin.com/raw/Qprsff9A")
+        return game:HttpGet("https://raw.githubusercontent.com/SamPlayz123/Sung-Jinwoo/refs/heads/main/wl")
     end)
     
     if success then
@@ -552,7 +552,7 @@ end
 		Callback = bindable,
 
 		Button1 = "ok";
-		Button2 = "bro you stink";
+		Button2 = "edited by kingsam";
 	})
 
 
